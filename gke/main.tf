@@ -11,7 +11,7 @@ variable "location" {
 }
 
 variable "machine" {
-    default = "n1-standard-1"  
+  default = "n1-standard-1"
 }
 
 provider "google" {

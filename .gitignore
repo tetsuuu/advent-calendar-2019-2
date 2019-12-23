@@ -4,6 +4,7 @@
 node_modules
 .idea
 credentials
+.terraform
 
 # CDK asset staging directory
 .cdk.staging

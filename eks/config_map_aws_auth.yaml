@@ -5,7 +5,7 @@ metadata:
   namespace: kube-system
 data:
   mapRoles: |
-    - rolearn: arn:aws:iam::608092561803:role/advent-k8s-sand-k8s-nodes
+    - rolearn: arn:aws:iam::123456789012:role/advent-k8s-sand-k8s-nodes
       username: system:node:{{EC2PrivateDNSName}}
       groups:
         - system:bootstrappers
